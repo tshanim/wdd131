@@ -3,49 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>William Tshani WDD131</title>
+    <title>WDD 131 – Dynamic Web Fundamentals – William Mbuyamba Tshani</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals, William Mbuyamaba Tshani, " />
+    <meta name="author" content="William Mbuyamba Tshani" />
     <link rel="stylesheet" href="styles/base.css" />
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <div class="content">
-        <header>
-            <h1>WDD131: Dynamic Web Fundamentals - William Tshani</h1>
-            <nav>
-                <a href="#" title="LinkedIn">LinkedIn</a>
-                <a href="#" title="Canvas">Canvas</a>
-                <a href="#" title="Scripture">Scripture</a>
-                <a href="#" title="Fnal Projects">Final Projects</a>
-            </nav>
-        </header>
-        <main>
+    <header>
+        <h1>WDD131: Dynamic Web Fundamentals - William Mbuyamba Tshani</h1>
+        <na>
+            <a href="https://www.linkedin.com/in/william-tshani-1a254860/" title="LinkedIn">LinkedIn</a>
+            <a href="https://byupw.instructure.com/" title="Canvas">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/philip/4?lang=eng&id=p13#p13" title="Scripture">Scripture</a>
+            <a href="#" title="Final Projects">Final Projects</a>
+        </na>
+    </header>
+    <main>
+        <section class="card-01">
             <h1>About Me</h1>
-            <div>
+            <div class="story">
                 <p>
-                    My name is William Tshani, and I am from the DR Congo but I live in Johannesburg, South Africa. 
+                    I'm William Mbuyamba Tshani, currently living in Johannesburg, South Africa with my wife and three daughters. I'm
+                    pursuing a Bachelor of Science in Applied Technology at BYU–Idaho, majoring in Computer Programming & Web Development.
+                    I'm passionate about leadership, innovation, and building systems that uplift communities. I love learning, mentoring, and exploring ideas that shape a better future for Africa.
                 </p>
-                <img src="images/william-photo.png" alt="Photo William" />
+                <img src="images/william-photo.png" alt="My Profile Picture" />
             </div>
-            <div>
-                <h1>Johannesburg City, South Africa</h1>
-                <img src="#" alt="official Flag of South Africa" />
-                <h1>Official Flag of South Africa</h1>
+            <div class="panama">
+                <h2>Johannesburg, South Africa</h2>
+                <img src="images/Flag_of-South_Africa.png" alt="Official Flag of South Africa" />
+                <h4>Official Flag of South Africa</h4>
                 <p>
-                    South Africa...
+                    South Africa is a vibrant and diverse nation known for its rich history, cultural heritage, and dynamic economy. As a
+                    land of innovation and transformation, it offers a powerful backdrop for learning, leadership, and meaningful impact.
+                    From its resilient communities to its evolving institutions, South Africa inspires those who seek to build, uplift, and lead with purpose.
                 </p>
             </div>
-        </main>
-        <aside>
-            <h1>Web Dev Resources</h1>
-            <ul>
-                <li><a href="#">Dev. to Community</a></li>
-                <li><a href="#">Smashing Magazine</a></li>
-                <li><a href="#">CSS Tricks</a></li>
-                <li><a href="#">W3 Schools</a></li>
-                <li><a href="#">Udemy</a></li>
-                <li><a href="#">Lorem Picsum Image Placeholder</a></li>
-            </ul>
-        </aside>
-        <footer><h1>Footer Content</h1></footer>
-    </div>    
+        </section>
+        <section class="card-02">
+            <h2>Web Dev Resources</h2>
+            <div>
+                <ul>
+                    <li><a href="https://dev.to/">Dev.to Community</a></li>
+                    <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+                    <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                    <li><a href="https://www.w3schools.com/css/">W3 Schools</a></li>
+                    <li><a href="https://www.udemy.com/">Udemy</a></li>
+                    <li><a href="https://picsum.photos/">Image Placeholder</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy;<span id="currentyear">year</span> - William Mbuyamba Tshani - South Africa
+        </p>
+        <p id="lastModified">Lorem ipsum dolor, sit amet consectetur</p>
+    </footer>
 </body>
 </html>
