@@ -4,4 +4,4 @@ const lastModified = document.lastModified;
 const copyrightyearElement = document.getElementById('currentyear');
 const lastModifiedElement = document.getElementById('lastModified');
 copyrightyearElement.textContent = currentYear;
-lastModifiedElement.textContent = `last update: ${lastModified}`;
+lastModifiedElement.textContent = `Last Update: ${lastModified}`;
