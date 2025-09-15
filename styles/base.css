@@ -26,7 +26,7 @@
     --nav-hover-background-color: var(--primary-color);
 }
 
-/* gneral */
+/* general */
 body {
     background-color: white;
     font-size: 24px;
@@ -66,7 +66,7 @@ header h1 {
     font-size: 26px;
 }
 
-nav {
+.navigation {
     max-width: 100%;
     grid-column: 1;
     grid-row: 2;
@@ -74,7 +74,7 @@ nav {
     padding: 20px;
 }
 
-nav {
+.navigation {
     list-style: none;
     display: flex;
     align-items: center;
@@ -87,7 +87,6 @@ nav a {
     padding: 0.75rem;
     text-decoration: none;
     text-align: center;
-    /* border: 1px dotted cyan; */
 }
 
 nav a:hover {
@@ -116,27 +115,27 @@ main {
     text-align: center;
 }
 
-card-01 h2 {
+.card-01 h2 {
     grid-row: 1;
     font-size: 26px;
     color: var(--heading-font);
     background-color: var(--headline-color-on-white);
 }
 
-.story {
+.intro {
     grid-row: 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
 }
 
-.story p {
+.intro p {
     grid-column: 1;
     color: var(--paragraph-color-on-white);
     margin: auto;
     text-align: left;
 }
-.story img {
+.intro img {
     grid-column: 2;
     margin: auto;
 }
