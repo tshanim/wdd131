@@ -29,7 +29,7 @@
 /* general */
 body {
     background-color: white;
-    font-size: 24px;
+    font-size: 20px;
     margin: 0;
     padding: 0;
     font-family: var(--paragraph-font);
@@ -96,6 +96,9 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     transform: scale(1.1);
 }
+li {
+    width: 25%;
+}
 
 /* Main content */
 main {
@@ -109,7 +112,7 @@ main {
 .card-01 {
     grid-column: 1;
     grid-row: 1;
-    padding: 20px;
+    /* padding: 20px; */
     background-color: var(--accent3-color);
     color: var(--headline-color-on-color);
     text-align: center;
@@ -138,6 +141,8 @@ main {
 .intro img {
     grid-column: 2;
     margin: auto;
+    height: 100%;
+    padding-top: 20px;
 }
 
 .johannesburg {
@@ -146,6 +151,7 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     gap: 15px;
+    padding: 20px;
 }
 
 .johannesburg h2 {
@@ -167,6 +173,23 @@ main {
     margin: auto;
     text-align: left;
 }
+
+.johannesburg img {
+    grid-column: 2;
+    margin: auto;
+    height: 80%;
+    padding-top: 20px;
+
+}
+
+#flag {
+    grid-column: 2;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 0;
+
+}
 .card-02 {
     display: grid;
     grid-template-columns: auto;
@@ -174,7 +197,7 @@ main {
     gap: 20px;
     grid-column: 2;
     grid-row: 1;
-    padding: 20px;
+    /* padding: 20px; */
     background-color: var(--accent2-color);
     color: var(--headline-color-on-color);
     text-align: center;
@@ -198,14 +221,16 @@ main {
 
 .card-02 ul {
     color: black;
-    padding: 0;
+    padding: 20px;
     text-align: left;
+    /* font-size: 20px; */
 }
 
 
 .card-01, .card-02 {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0.1);
+    overflow: hidden;
 }
 
 /* Footer */
@@ -222,4 +247,8 @@ footer {
 footer p {
     margin: 0;
     padding: 0;
+}
+
+#copy-right {
+    padding-top: 20px;
 }
