@@ -120,7 +120,7 @@ main {
 
 .card-01 h2 {
     grid-row: 1;
-    font-size: 26px;
+    font-size: 20px;
     color: var(--heading-font);
     background-color: var(--headline-color-on-white);
 }
@@ -205,7 +205,7 @@ main {
 
 .card-02 h2 {
     grid-row: 1;
-    font-size: 26px;
+    font-size: 20px;
     color: var(--heading-font);
     background-color: var(--headline-color-on-white);
 }
