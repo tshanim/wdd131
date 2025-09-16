@@ -96,7 +96,8 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     transform: scale(1.1);
 }
-li {
+
+.navigation li {
     width: 25%;
 }
 
@@ -122,6 +123,7 @@ main {
     grid-row: 1;
     font-size: 20px;
     color: var(--heading-font);
+    padding: 10px;
     background-color: var(--headline-color-on-white);
 }
 
@@ -207,6 +209,7 @@ main {
     grid-row: 1;
     font-size: 20px;
     color: var(--heading-font);
+    padding: 10px;
     background-color: var(--headline-color-on-white);
 }
 
