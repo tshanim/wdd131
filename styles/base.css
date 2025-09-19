@@ -78,6 +78,7 @@ header h1 {
     list-style: none;
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 nav a {
@@ -142,9 +143,10 @@ main {
 }
 .intro img {
     grid-column: 2;
-    margin: auto;
+    /* margin: auto; */
     height: 100%;
-    padding-top: 20px;
+    padding-top: 25px;
+    margin-left: 20px;
 }
 
 .johannesburg {
@@ -162,7 +164,7 @@ main {
     grid-row: 1;
     color: var(--headline-color-on-white);
     background-color: var(--accent3-color);
-    margin: 0;
+    margin-top: 25px;
     padding: 10px;
     text-align: center;
     border-bottom: rgb(106, 104, 104) 3px solid;
@@ -180,7 +182,9 @@ main {
     grid-column: 2;
     margin: auto;
     height: 80%;
+    max-width: 100px;
     padding-top: 20px;
+    object-fit: contain;
 
 }
 
