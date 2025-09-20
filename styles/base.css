@@ -35,7 +35,7 @@ body {
     font-family: var(--paragraph-font);
 }
 
-h1, h2{
+h1, h2 {
     font-family: var(--heading-font);
     margin: 0;
     padding: 0;
