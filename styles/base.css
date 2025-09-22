@@ -64,6 +64,7 @@ header #course-title {
     padding: 1em;
     text-align: center;
     font-size: 26px;
+    font-weight: 700;
 }
 
 .navigation {
@@ -122,7 +123,6 @@ main h1 {
     padding: 1em;
     text-align: center;
     font-size: 26px;
-
 }
 
 .card-01 {
