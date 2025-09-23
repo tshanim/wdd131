@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Display wind chill factor
     const windChillElement = document.createElement("tr");
-    const windChillLabel = document.createElement("td");
+    const windChillLabel = DocumentTimeline.createElement("td");
     windChillLabel.className = "label";
     windChillLabel.innerHTML = "<b>Wind Chill:</b>";
 
@@ -31,9 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
     windChillElement.appendChild(windChillValue);
 
     document.querySelector(".weather table").appendChild(windChillElement);
-});
-
-
+})
 
 // Footer information
 const currentYear = new Date().getFullYear();
@@ -42,3 +40,5 @@ const copyrightYearElement = document.getElementById('currentyear');
 const lastModifiedElement = document.getElementById('lastModified');
 copyrightYearElement.textContent = currentYear;
 lastModifiedElement.textContent = `Last update: ${lastModified}`;
+
+

@@ -60,7 +60,7 @@
 
 body {
     font-family: var(--poppins-regular);
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 h1 {
@@ -69,11 +69,10 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
-h2,
-h1 {
+h2, h1 {
     margin: 0%;
 }
 
@@ -84,14 +83,14 @@ table {
 }
 
 .weather table {
-    padding: 25px 0;
+    padding: 20px;
 }
 
 td {
     padding: 5px 5px;
 }
 
-td.label {
+td .label {
     text-align: right;
 }
 
@@ -103,7 +102,6 @@ td.label {
     justify-content: center;
     align-items: center;
 }
-
 
 header {
     padding: 20px;
@@ -119,18 +117,15 @@ header {
 .hero img {
     width: 100%;
     height: auto;
-    mask-image: linear-gradient(#67171Fff 95%,
-            transparent);
+    mask-image: linear-gradient(#67171Fff 95%, transparent);
 }
 
-.data,
-.weather {
+.data, .weather {
     padding-top: 25px;
 }
 
 .data {
     grid-row: 2;
-
 }
 
 .weather-icon {
@@ -142,20 +137,18 @@ header {
     margin-bottom: 50px;
 }
 
-
 .weather img {
     width: 15%;
     height: auto;
 }
 
-header,
-footer {
+header, footer {
     background-color: var(--onyx);
     color: var(--platinum);
 }
 
 footer {
-    padding: 25px 0;
+    padding: 2px 0;
     text-align: center;
     font-size: 1rem;
 }
