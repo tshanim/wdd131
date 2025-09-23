@@ -17,7 +17,7 @@ table {
     margin: 10px auto;
     border: thin solid var(--border);
     box-shadow: 0 0 10px var(--shadow);
-    border-collapse: collaspe;
+    border-collapse: collapse;
 }
 
 caption {
@@ -27,12 +27,14 @@ caption {
     font-size: .85rem;
 }
 
-tr:first-child th, .highlight {
+tr:first-child th,
+.highlight {
     background-color: var(--back);
     color: var(--forelight);
 }
 
-th, td {
+th,
+td {
     padding: 7px 15px;
     border: 1px solid var(--borderlight);
 }
@@ -41,11 +43,11 @@ th {
     background-color: var(--back2);
     font-size: larger;
 }
+
 td {
     text-align: center;
 }
 
 tbody tr:nth-child(odd) {
     background-color: var(--zebra);
-}
 }
