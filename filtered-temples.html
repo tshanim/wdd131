@@ -8,9 +8,17 @@
     <meta name="description" content="Temple Album">
     <meta name="keywords" content="Temple Album, Johannesburg South Africa Temple">
     <meta name="author" content="William Mbuyamba Tshani">
+    
+    <!-- Preconnect to improve loading performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    </noscript>
+    
     <link rel="stylesheet" href="styles/filtered-temples.css">
     <link rel="stylesheet" href="styles/filtered-temples-large.css">
     <script src="scripts/filtered-temples.js" defer></script>
@@ -18,7 +26,7 @@
 
 <body>
     <header>
-        <h1 class="nameHolder">Temple Album</h1>
+        <h1 class="nameHeader">Temple Album</h1>
         <button id="menu" title="Menu"></button>
         <nav class="navigation">
             <a class="active" href="#" id="home-nav">Home</a>
