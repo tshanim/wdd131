@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Static values for temperature and wind speed
-    const temperature = 31; // in °C
-    const windSpeed = 7; // in km/h
+    const temperature = 15; // in °C
+    const windSpeed = 18; // in km/h
 
     // Function to calculate wind chill factor
     function calculateWindChill(temp, wind) {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Display wind chill factor
     const windChillElement = document.createElement("tr");
-    const windChillLabel = DocumentTimeline.createElement("td");
+    const windChillLabel = document.createElement("td");
     windChillLabel.className = "label";
     windChillLabel.innerHTML = "<b>Wind Chill:</b>";
 
@@ -31,7 +31,9 @@ document.addEventListener("DOMContentLoaded", function () {
     windChillElement.appendChild(windChillValue);
 
     document.querySelector(".weather table").appendChild(windChillElement);
-})
+});
+
+
 
 // Footer information
 const currentYear = new Date().getFullYear();
@@ -40,5 +42,4 @@ const copyrightYearElement = document.getElementById('currentyear');
 const lastModifiedElement = document.getElementById('lastModified');
 copyrightYearElement.textContent = currentYear;
 lastModifiedElement.textContent = `Last update: ${lastModified}`;
-
 
