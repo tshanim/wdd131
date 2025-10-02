@@ -4,6 +4,7 @@
         text-align: center;
         position: relative;
         display: inline;
+        text-align: center;
     }
 
     .hero img {
@@ -34,7 +35,7 @@
         padding-top: 15px;
     }
 
-    .data, weather {
+    .data, .weather {
         position: absolute;
         padding: 0 0 20px 0;
         background-color: rgba(182, 201, 223, 0.85);
