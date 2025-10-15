@@ -4,12 +4,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const socialContent = `
         <a href="https://github.com/tshanim" target="_blank" title="GitHub"><img
                 class="icon github-logo" src="images/logos/github_logo.png"
-                alt="GitHub icon" /></a>
+                alt="GitHub icon" width="512" height="512"></a>
         <a href="https://x.com/btatshani" target="_blank" title="X"><img class="icon x-logo"
-                src="images/logos/X_logo.png" alt="X logo" /></a>
+                src="images/logos/X_logo.png" alt="X logo" width="960" height="960"></a>
         <a href="https://www.linkedin.com/in/william-tshani-1a254860/" target="_blank" title="LinkedIn"><img
                 class="icon linkedin-logo" src="images/logos/linkedin_logo.png"
-                alt="LinkedIn icon" /></a>
+                alt="LinkedIn icon" width="200" height="200"></a>
     `;
 
     menuButton.addEventListener('click', () => {
