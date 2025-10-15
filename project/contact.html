@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description" content="Contact Us">
+    <meta name="keywords" content="Contact Us">
+    <meta name="author" content="William Mbuyamba Tshani">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-large.css">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo-wtshaniwebdev.png" alt="WTSHANIWEBDEV" width="354" height="354">
+        <button id="menu"></button>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="Contact.html">Contact</a>
+        </nav>        
+    </header>
+    <main class="container-contact">
+        <section class="contact-box">
+            <div class="image-container">
+                <img src="images/hero-contact-img.webp" alt="Image of Computers showcasing code">
+            </div>
+            <div class="form-container">
+                <form id="contactForm" action="my-handling-form-page" method="post">
+                    <h1>Contact us</h1>
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" required />
+                        </li>
+                        <li>
+                            <label for="mail">Email:</label>
+                            <input type="email" id="mail" name="user_email" required />
+                        </li>
+                        <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name"user_message" required></textarea>
+                        </li>
+                        <li>
+                            <button type="submit">Send your message</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div class="final-contact">
+                <h3>Reliable Web Solutions</h3>
+                <p>
+                    Got ideas? Contact us so we can shape them into impactful digital experiences!
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear">2025</span> - William Mbuyamba Tshani - South Africa</p>
+        <p id="lastModified">Last Modified: </p>
+        <div class="social">
+            <a href="https://github.com/tshanim" target="_blank" title="GitHub"><img class="icon github-logo"
+                    src="images/logos/github_logo.png" alt="GitHub icon" /></a>
+            <a href="https://x.com/btatshani" target="_blank" title="X"><img class="icon x-logo"
+                    src="images/logos/X_logo.png" alt="X logo" /></a>
+            <a href="https://www.linkedin.com/in/william-tshani-1a254860/" target="_blank" title="LinkedIn"><img
+                    class="icon linkedin-logo" src="images/logos/linkedin_logo.png" alt="LinkedIn icon" /></a>
+        </div>
+    </footer>
+    <script src="scripts/base.js" defer></script>    
+</body>
+</html>
